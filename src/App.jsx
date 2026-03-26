@@ -162,8 +162,8 @@ function Hero() {
         <div className="hero__left">
           <p className="hero__eyebrow">Алматы · Казахстан</p>
           <h1 className="hero__title">
-            Городская мебель<br />
-            <em>для пространства,<br />которое остаётся</em>
+          Благоустройство городских пространств<br />
+            <em>от идеи<br />до установки</em>
           </h1>
           <p className="hero__sub">
             Скамьи, перголы, МАФ, спортивное оборудование
@@ -400,7 +400,7 @@ function About() {
           <p className="about__label">О компании</p>
           <h2 className="about__title">Создаём пространства,<br /><em>где хочется остаться</em></h2>
           <p className="about__desc">
-            vkvadrate — алматинский производитель городской мебели и малых архитектурных форм.
+            vkvadrate — алматинский производитель уличного оборудования и малых архитектурных форм.
             Работаем с девелоперами, муниципалитетами и управляющими компаниями по всему Казахстану.
           </p>
           <a href={waGeneral} className="about__cta btn-wa" target="_blank" rel="noopener noreferrer">
@@ -431,7 +431,7 @@ function Footer() {
       <div className="container footer__inner">
         <div className="footer__brand">
           <img src="/logo.png" alt="vkvadrate" width="56" height="56" />
-          <p>Городская мебель и малые<br />архитектурные формы</p>
+          <p>Благоустройство городских<br />пространств</p>
           <span className="footer__city">Алматы, Казахстан</span>
         </div>
 
