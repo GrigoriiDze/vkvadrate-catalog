@@ -538,6 +538,7 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   padding: 22px 24px;
   margin-bottom: 28px;
   box-shadow: var(--sh-sm);
+  overflow: hidden;
 }
 
 .filters__cats {
@@ -1053,14 +1054,18 @@ button { cursor: pointer; border: none; background: none; font-family: inherit; 
   /* Catalog */
   .catalog { padding: 64px 0 80px; }
 
-  .filters { padding: 16px; }
-  .filters__cats { overflow-x: auto; flex-wrap: nowrap; padding-bottom: 14px; margin-bottom: 14px; scrollbar-width: none; }
-  .filters__cats::-webkit-scrollbar { display: none; }
-
+  .filters { padding: 14px; }
+  .filters__cats {
+    flex-wrap: wrap;
+    padding-bottom: 14px;
+    margin-bottom: 14px;
+    gap: 8px;
+  }
+  .filters__prices {
+    flex-wrap: wrap;
+    gap: 6px;
+  }
   .filters__row { flex-direction: column; align-items: stretch; }
-  .filters__prices { overflow-x: auto; flex-wrap: nowrap; scrollbar-width: none; padding-bottom: 2px; }
-  .filters__prices::-webkit-scrollbar { display: none; }
-
   .filters__controls { flex-direction: column; align-items: stretch; }
   .search-wrap input { width: 100%; }
   .sort-sel { width: 100%; }
